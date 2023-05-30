@@ -595,7 +595,7 @@ vendor/etc/init/qcrilNrd.rc
 vendor/etc/init/ssgtzd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
-vendor/etc/qcril_database/upgrade/config/10.0_config.sql
+vendor/etc/qcril_database/upgrade/config/10.0_config.sql|4e32f46a6315e54276a5f756c575c0ae960ed924
 vendor/etc/qcril_database/upgrade/config/6.0_config.sql
 vendor/etc/qcril_database/upgrade/config/7.0_config.sql
 vendor/etc/qcril_database/upgrade/config/8.0_config.sql
