@@ -136,7 +136,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
     XiaomiDolby \
-    XiaomiDolbyResCommon
+    XiaomiDolbyResCommon \
+    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
