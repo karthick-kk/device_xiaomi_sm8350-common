@@ -17,6 +17,10 @@ vendor/lib64/soundfx/libqcbassboost.so|e655270002aef6e9eb79774b16d2cda408fc3be8
 vendor/lib64/soundfx/libqcreverb.so|6365400f47e7a1f56f902884993963acd567bbdf
 vendor/lib64/soundfx/libqcvirt.so|e2cd59853b16a7d11739472085b07e90771a6dbe
 
+# Audio FX modules - Spatial Audio
+vendor/lib/soundfx/libspatialaudio.so|c84a1098a775401344d97d3c7638498d9207ccad
+vendor/lib64/soundfx/libspatialaudio.so|6032bab9daed70af13ab9ebcc21a40d703d05bbe
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc

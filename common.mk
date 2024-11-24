@@ -427,6 +427,17 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# Spatial Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
+ 
+PRODUCT_PROPERTY_OVERRIDES += \
+       audio.spatializer.effect.util_clamp_min=300 \
+       ro.audio.spatializer_enabled=true \
+       ro.audio.headtracking_enabled=true \
+       ro.audio.spatializer_transaural_enabled_default=false \
+       persist.vendor.audio.spatializer.speaker_enabled=true \
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
