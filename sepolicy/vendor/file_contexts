@@ -46,6 +46,9 @@
 /sys/devices/virtual/touch/tp_dev/fod_status                              u:object_r:vendor_sysfs_udfps:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.3-service\.xiaomi_vili u:object_r:hal_fingerprint_default_exec:s0
 
+# HTSR
+/sys/devices/virtual/touch/touch_dev/bump_sample_rate	                  u:object_r:sysfs_htsr:s0
+
 # IR
 /dev/lirc[0-9]+                                                           u:object_r:lirc_device:s0
 /vendor/bin/hw/android\.hardware\.ir-service\.xiaomi                      u:object_r:hal_ir_default_exec:s0
