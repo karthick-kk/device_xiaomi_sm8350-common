@@ -6,7 +6,6 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Enable virtual A/B OTA
@@ -310,6 +309,16 @@ PRODUCT_VENDOR_PROPERTIES += \
 endif
 
 # Media
+PRODUCT_PACKAGES += \
+    libmm-omxcore \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libstagefrighthw
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh \
     $(LOCAL_PATH)/media/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc
