@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+
+prebuilt_etc {
+    name: "media_codecs_c2_dolby_audio.xml",
+    src: "media_codecs_c2_dolby_audio.xml",
+    vendor: true,
+}
+
