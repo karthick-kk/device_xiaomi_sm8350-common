@@ -174,7 +174,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 
 # Dolby Atmos - from OnePlus 9RT MT2111_14.0.0.730(EX01)
 odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service|7951f0ede5108f0080bb8abb18651058db9e46ae
-odm/etc/dolby/multimedia_dolby_dax_default.xml|be49c4cde1bc41f67fbfa2c49ba6d8f4e40eb8dc
+odm/etc/dolby/multimedia_dolby_dax_default.xml|3c3eedc6612a60ddb09e8ea2ea65612a66af2c17
 odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc|5da96cf855061860f27dff6399505f8d1f1daeee
 odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml|c4704e5bc4da7cdf291c79389f379c8355eaf730
 odm/lib/libdapparamstorage_v3_6.so|c6c36fba280f2373034cf754870611614bf0f22f
